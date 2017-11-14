@@ -1,0 +1,14 @@
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\bin\Debug\saprWpf.exe.config
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\bin\Debug\saprWpf.exe
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\bin\Debug\saprWpf.pdb
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\obj\Debug\saprWpf.csprojResolveAssemblyReference.cache
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\obj\Debug\MainWindow.g.cs
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\obj\Debug\App.g.cs
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\obj\Debug\saprWpf_MarkupCompile.cache
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\obj\Debug\saprWpf_MarkupCompile.lref
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\obj\Debug\MainWindow.baml
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\obj\Debug\saprWpf.g.resources
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\obj\Debug\saprWpf.Properties.Resources.resources
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\obj\Debug\saprWpf.csproj.GenerateResource.Cache
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\obj\Debug\saprWpf.exe
+c:\users\alexandr\documents\visual studio 2015\Projects\saprWpf\saprWpf\obj\Debug\saprWpf.pdb

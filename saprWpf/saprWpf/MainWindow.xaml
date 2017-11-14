@@ -1,0 +1,33 @@
+﻿<Window x:Class="saprWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:saprWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="635.667" Width="1257.649">
+    <Grid Margin="0,0,0,-5">
+        <GroupBox x:Name="groupBox" Header="NET файл" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" Height="148" Width="151">
+            <Label x:Name="label" Content="Кол-во разбиений" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,41,0,0" Width="119"/>
+        </GroupBox>
+        <TabControl x:Name="tabControl" Height="577" VerticalAlignment="Top" Width="1052" Margin="173,0,0,0" SelectionChanged="tabControl_SelectionChanged" HorizontalAlignment="Left" FontSize="14" FontWeight="Bold">
+            <TabItem Header="NET файл">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="textBoxNetFile" HorizontalAlignment="Left" Height="526" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1026" TextChanged="textBox_TextChanged"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Матрица цепей">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="526" Width="1026" FontSize="10" FontFamily="Segoe UI Light"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Компоновка" Margin="-2,0">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="76" Margin="22,99,0,0" SelectionChanged="comboBox_SelectionChanged"/>
+        <Button x:Name="button" Content="NET File" HorizontalAlignment="Left" Margin="22,42,0,0" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.428,-0.55" Click="button_Click"/>
+        <Label x:Name="countElemLabel" Content="Кол-во элементов: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,126,0,0" Width="144"/>
+        <TextBox x:Name="textBoxChainName" HorizontalAlignment="Left" Height="406" Margin="10,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151"/>
+    </Grid>
+</Window>
